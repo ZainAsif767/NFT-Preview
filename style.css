@@ -1,0 +1,153 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    font-family: "Outfit", sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Very-dark-blue-main-BG);
+}
+
+.card {
+    background-color: var(--Very-dark-blue-card-BG);
+    box-shadow: 0 0 8px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    border-radius: 0.5rem;
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+
+}
+
+.header {
+    position: relative;
+    cursor: pointer;
+}
+
+.main-img {
+    border-radius: 0.5rem;
+}
+
+.overlay {
+    background-color: var(--Cyan);
+    opacity: 40%;
+    position: absolute;
+    top: 0;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    border-radius: 1rem;
+    display: none;
+}
+
+.view {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.header:hover .overlay,
+.header:hover .view {
+    display: block;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    color: var(--White);
+    cursor: pointer;
+}
+
+.title:hover {
+    color: var(--Cyan);
+}
+
+.content {
+    color: var(--Soft-blue);
+    font-weight: 300;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.eth {
+    color: var(--Cyan);
+}
+
+.time {
+    color: var(--Soft-blue);
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: var(--Very-dark-blue-line);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer img {
+    width: 40px;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+}
+
+.footer p {
+    color: var(--Soft-blue);
+    cursor: pointer;
+
+}
+
+.foorer b {
+    color: var(--White);
+    /* cursor: pointer; */
+}
+
+.footer b:hover {
+    color: var(--Cyan);
+}
