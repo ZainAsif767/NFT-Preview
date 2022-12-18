@@ -157,6 +157,7 @@ a {
     transition: 0.3s ease-out;
     font-weight: 300;
     display: block;
+    color: white;
 }
 
 .attribution {
