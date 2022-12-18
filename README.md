@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution](https://github.com/ZainAsif767/NFT-Preview)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://nft-challenge-by-zain.netlify.app/](https://your-live-site-url.com)
 
 
 ### Built with
