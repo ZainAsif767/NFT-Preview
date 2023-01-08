@@ -22,7 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
--[screenshot](./NFT-Challenge.PNG)
+![image](https://user-images.githubusercontent.com/98703238/211212864-5ca4f9aa-7d98-4755-8828-834b1aeaf0c3.png)
+
 
 
 ### Links
